@@ -36,6 +36,14 @@ client.authenticate((err) => {
 });
 ```
 
+## Documentation
+
+Full documentation site: **[fable-retold.github.io/fable-ultravisor-client](https://fable-retold.github.io/fable-ultravisor-client/)**
+
+- **Quick Start** — install, authenticate, dispatch your first work item
+- **API Reference** — every method with verified signatures, plus the work-item shape
+- **Binary Frame Protocol** — the `binary-frames-v1` wire format used by `dispatchStream`
+
 ## Surface
 
 | Method | Description |
@@ -77,6 +85,10 @@ The `/Beacon/Work/DispatchStream` endpoint returns a chunked response with frame
 | `0x03` | Final binary output | Raw bytes (accumulated into `OutputBuffer`) |
 | `0x04` | Result metadata | JSON result envelope |
 | `0x05` | Error | JSON `{ Error }` (non-fatal notification) |
+
+## The client and the beacon
+
+This client is one end of a two-ended protocol. It dispatches work *into* an Ultravisor coordinator; [ultravisor-beacon](https://github.com/stevenvelozo/ultravisor-beacon) is the worker that registers with that same coordinator and *executes* the work. The coordinator sits between them — this client never talks to a beacon directly.
 
 ## License
 

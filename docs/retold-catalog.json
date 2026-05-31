@@ -1,0 +1,69 @@
+{
+	"Generated": "2026-05-31T01:44:01.439Z",
+	"Mode": "module",
+	"GitHubOrg": "fable-retold",
+	"DefaultBranch": "master",
+	"Module": {
+		"Name": "fable-ultravisor-client",
+		"Repo": "fable-ultravisor-client",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quick Start",
+						"Path": "quickstart.md"
+					}
+				]
+			},
+			{
+				"Title": "Reference",
+				"Children": [
+					{
+						"Title": "API Reference",
+						"Path": "api.md"
+					},
+					{
+						"Title": "Binary Frame Protocol",
+						"Path": "binary-frame-protocol.md"
+					}
+				]
+			},
+			{
+				"Title": "Related Modules",
+				"Children": [
+					{
+						"Title": "Fable",
+						"Path": "https://fable-retold.github.io/fable/README.md"
+					},
+					{
+						"Title": "Ultravisor",
+						"Path": "https://stevenvelozo.github.io/ultravisor/README.md"
+					},
+					{
+						"Title": "Ultravisor-Beacon",
+						"Path": "https://stevenvelozo.github.io/ultravisor-beacon/README.md"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			"README.md",
+			"_cover.md",
+			"_sidebar.md",
+			"_topbar.md",
+			"api.md",
+			"binary-frame-protocol.md",
+			"quickstart.md"
+		]
+	},
+	"Groups": []
+}

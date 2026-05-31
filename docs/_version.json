@@ -1,0 +1,7 @@
+{
+	"Name": "fable-ultravisor-client",
+	"Version": "1.0.1",
+	"Description": "HTTP client for the Ultravisor beacon coordinator — authentication, work-item dispatch (JSON and binary-framed streaming), and operation triggering.",
+	"GeneratedAt": "2026-05-31T01:44:01.695Z",
+	"GitCommit": "b1f2272"
+}
